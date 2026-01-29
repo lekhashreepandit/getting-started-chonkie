@@ -16,16 +16,5 @@ chunks = chunker.chunk(text)
 for chunk in chunks:
     print(f"Chunk text: {chunk.text}")
     print(f"Token count: {chunk.token_count}")
+
     
-
-
-# batch text chunking
-texts = [
-    "First document. With multiple sentences.",
-    "Second document. Also with sentences. And more context."
-]
-batch_chunks = chunker.chunk_batch(texts)
-
-for doc_chunks in batch_chunks:
-    for chunk in doc_chunks:
-        print(f"Chunk: {chunk.text}")   
