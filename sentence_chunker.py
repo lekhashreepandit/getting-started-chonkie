@@ -7,3 +7,25 @@ chunker = SentenceChunker(
     chunk_overlap=128,         # Overlap between chunks
     min_sentences_per_chunk=1  # Minimum sentences in each chunk
 )
+
+# single text chunking
+text = """This is the first sentence. This is the second sentence.
+And here's a third one with some additional context."""
+chunks = chunker.chunk(text)
+
+for chunk in chunks:
+    print(f"Chunk text: {chunk.text}")
+    print(f"Token count: {chunk.token_count}")
+    
+
+
+# batch text chunking
+texts = [
+    "First document. With multiple sentences.",
+    "Second document. Also with sentences. And more context."
+]
+batch_chunks = chunker.chunk_batch(texts)
+
+for doc_chunks in batch_chunks:
+    for chunk in doc_chunks:
+        print(f"Chunk: {chunk.text}")   
