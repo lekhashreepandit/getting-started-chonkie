@@ -1,24 +1,21 @@
 # Getting Started with Chonkie
 
-This repository contains the **hands-on examples and code** for the Medium blog:
+## Contents
+
+This repository provides **hands-on examples and practical code** accompanying the Medium article:
 
 **[Why Most RAG Pipelines Fail at Chunking — and How Chonkie Fixes It](https://medium.com/@lekhashree2012/why-most-rag-pipelines-fail-at-chunking-and-how-chonkie-fixes-it-5fcbf675c33a)**
+
+- Demonstrations of **core chunking strategies** using `FastChunker` and `RecursiveChunker`
+- Example implementations of **TokenChunker**, **SentenceChunker**, **NeuralChunker**, **CodeChunker**, **SlumberChunker**, and other available chunkers
+
+> The blog dives into the underlying concepts, explains why chunking is critical in RAG pipelines, and shows how Chonkie approaches it in practi
+
+---
 
 ## What is Chonkie
 
 Chonkie is a lightweight Python library for **deterministic, strategy-driven text chunking** in RAG and LLM pipelines. It focuses purely on how text is split — preserving semantic boundaries, respecting token limits, and improving retrieval relevance — without locking you into any embedding model or vector store.
-
----
-
-## Contents
-
-This repo includes:
-
-- Examples of **basic chunking** with `FastChunker` and `RecursiveChunker`
-- Code for **TokenChunker**, **SentenceChunker**, **NeuralChunker**, **CodeChunker**, **SlumberChunker**, and more
-- Sample text and code snippets for RAG pipelines
-
-> The full blog explains the theory, why chunking matters, and how to use Chonkie effectively.
 
 ---
 
@@ -43,11 +40,13 @@ Chonkie provides multiple strategies to handle different text types and use case
 
 ## Installation
 
+Basic installation (TokenChunker, SentenceChunker, RecursiveChunker)
+
 ```bash
 pip install chonkie
 ```
 
-To install Chonkie with **support for all chunkers**:
+For all features
 
 ```bash
 pip install chonkie[all]
