@@ -34,7 +34,7 @@ Chonkie provides multiple strategies to handle different text types and use case
 - **NeuralChunker** – uses a fine-tuned model to detect topic shifts  
 - **SlumberChunker** – agentic chunker leveraging LLM reasoning  
 
-> Each chunker is designed for specific scenarios in RAG pipelines, ensuring more accurate and context-aware retrieval.
+Each chunker is designed for specific scenarios in RAG pipelines, ensuring more accurate and context-aware retrieval.
 
 ---
 
