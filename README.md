@@ -9,7 +9,7 @@ This repository provides **hands-on examples and practical code** accompanying t
 - Demonstrations of **core chunking strategies** using `FastChunker` and `RecursiveChunker`
 - Example implementations of **TokenChunker**, **SentenceChunker**, **NeuralChunker**, **CodeChunker**, **SlumberChunker**, and other available chunkers
 
-> The blog dives into the underlying concepts, explains why chunking is critical in RAG pipelines, and shows how Chonkie approaches it in practi
+The blog dives into the underlying concepts, explains why chunking is critical in RAG pipelines, and shows how Chonkie approaches it in practice
 
 ---
 
