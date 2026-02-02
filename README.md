@@ -4,6 +4,8 @@ This repository contains the **hands-on examples and code** for the Medium blog:
 
 **[Why Most RAG Pipelines Fail at Chunking — and How Chonkie Fixes It](https://medium.com/@lekhashree2012/why-most-rag-pipelines-fail-at-chunking-and-how-chonkie-fixes-it-5fcbf675c33a)**
 
+## What is Chonkie
+
 Chonkie is a lightweight Python library for **deterministic, strategy-driven text chunking** in RAG and LLM pipelines. It focuses purely on how text is split — preserving semantic boundaries, respecting token limits, and improving retrieval relevance — without locking you into any embedding model or vector store.
 
 ---
